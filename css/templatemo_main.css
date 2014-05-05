@@ -95,7 +95,7 @@ img.slide {
 .templatemo-content {
     position: static;
     overflow: hidden; 
-    margin-top: 36%;
+    margin-top: 20%;
 }
 
 .templatemo-content section {
@@ -216,4 +216,25 @@ img.slide {
     .footer-text {
         margin-left: 0;
     }
+}
+
+#crossimage {
+  position:relative;
+  height:500px;
+  width:500px;
+  margin:0 auto;
+}
+
+#crossimage img {
+  width:100%;
+  position:absolute;
+  left:0;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+#crossimage img.top:hover {
+  opacity:0;
 }
